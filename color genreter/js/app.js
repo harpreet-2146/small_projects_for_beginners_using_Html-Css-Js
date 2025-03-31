@@ -1,5 +1,5 @@
 const main_div = document.getElementById("colordiv");
-const btn = document.getElementById('btn');
+const btn = document.getElementById('button');
 
 btn.addEventListener('click', function (event) {
     let colorCode = () => Math.floor(Math.random()*16).toString(16) 
